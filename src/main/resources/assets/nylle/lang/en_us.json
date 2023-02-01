@@ -1,0 +1,15 @@
+{
+  "item.nylle.silver_ingot": "Silver Ingot",
+  "item.nylle.raw_silver": "Raw Silver",
+  "item.nylle.tin_ingot": "Tin Ingot",
+  "item.nylle.raw_tin": "Raw Tin",
+
+  "block.nylle.silver_ore": "Silver Ore",
+  "block.nylle.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.nylle.silver_block": "Block of Silver",
+  "block.nylle.tin_ore": "Tin Ore",
+  "block.nylle.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.nylle.tin_block": "Block of Tin",
+
+  "tabs.nylle_tab": "Nylle"
+}
