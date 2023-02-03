@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "platinum_ingot",
+  "ingredient": {
+    "item": "nylle:deepslate_platinum_ore"
+  },
+  "result": "nylle:platinum_ingot"
+}

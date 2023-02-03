@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "nylle:deepslate_platinum_ore",
+    "nylle:deepslate_iridium_ore",
+    "nylle:deepslate_osmium_ore",
+
+    "nylle:platinum_ore",
+    "nylle:iridium_ore",
+    "nylle:osmium_ore",
+
+    "nylle:platinum_block",
+    "nylle:iridium_block",
+    "nylle:osmium_block"
+  ]
+}

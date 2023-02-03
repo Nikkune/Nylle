@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "nylle:block/lead_block"
+    }
+  }
+}

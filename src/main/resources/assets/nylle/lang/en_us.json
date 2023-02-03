@@ -1,15 +1,45 @@
 {
-  "item.nylle.silver_ingot": "Silver Ingot",
-  "item.nylle.raw_silver": "Raw Silver",
-  "item.nylle.tin_ingot": "Tin Ingot",
   "item.nylle.raw_tin": "Raw Tin",
+  "item.nylle.raw_lead": "Raw Lead",
+  "item.nylle.raw_silver": "Raw Silver",
+  "item.nylle.raw_platinum": "Raw Platinum",
+  "item.nylle.raw_iridium": "Raw Iridium",
+  "item.nylle.raw_osmium": "Raw Osmium",
+  "item.nylle.raw_tungsten": "Raw Tungsten",
 
-  "block.nylle.silver_ore": "Silver Ore",
-  "block.nylle.deepslate_silver_ore": "Deepslate Silver Ore",
-  "block.nylle.silver_block": "Block of Silver",
-  "block.nylle.tin_ore": "Tin Ore",
+  "item.nylle.tin_ingot": "Tin Ingot",
+  "item.nylle.lead_ingot": "Lead Ingot",
+  "item.nylle.silver_ingot": "Silver Ingot",
+  "item.nylle.platinum_ingot": "Platinum Ingot",
+  "item.nylle.iridium_ingot": "Iridium Ingot",
+  "item.nylle.osmium_ingot": "Osmium Ingot",
+  "item.nylle.tungsten_ingot": "Tungsten Ingot",
+
+  "item.nylle.wrench": "Wrench",
+
   "block.nylle.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.nylle.deepslate_lead_ore": "Deepslate Lead Ore",
+  "block.nylle.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.nylle.deepslate_platinum_ore": "Deepslate Platinum Ore",
+  "block.nylle.deepslate_iridium_ore": "Deepslate Iridium Ore",
+  "block.nylle.deepslate_osmium_ore": "Deepslate Osmium Ore",
+  "block.nylle.deepslate_tungsten_ore": "Deepslate Tungsten Ore",
+
+  "block.nylle.tin_ore": "Tin Ore",
+  "block.nylle.lead_ore": "Lead Ore",
+  "block.nylle.silver_ore": "Silver Ore",
+  "block.nylle.platinum_ore": "Platinum Ore",
+  "block.nylle.iridium_ore": "Iridium Ore",
+  "block.nylle.osmium_ore": "Osmium Ore",
+  "block.nylle.tungsten_ore": "Tungsten Ore",
+
   "block.nylle.tin_block": "Block of Tin",
+  "block.nylle.lead_block": "Block of Lead",
+  "block.nylle.silver_block": "Block of Silver",
+  "block.nylle.platinum_block": "Block of Platinum",
+  "block.nylle.iridium_block": "Block of Iridium",
+  "block.nylle.osmium_block": "Block of Osmium",
+  "block.nylle.tungsten_block": "Block of Tungsten",
 
   "tabs.nylle_tab": "Nylle"
 }

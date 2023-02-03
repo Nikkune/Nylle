@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "osmium_ingot",
+  "ingredient": {
+    "item": "nylle:raw_osmium"
+  },
+  "result": "nylle:osmium_ingot"
+}

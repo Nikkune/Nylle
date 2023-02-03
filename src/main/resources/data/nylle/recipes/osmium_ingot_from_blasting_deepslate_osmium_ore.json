@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.7,
+  "group": "osmium_ingot",
+  "ingredient": {
+    "item": "nylle:deepslate_osmium_ore"
+  },
+  "result": "nylle:osmium_ingot"
+}

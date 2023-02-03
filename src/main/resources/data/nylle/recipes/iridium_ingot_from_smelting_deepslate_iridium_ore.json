@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 300,
+  "experience": 0.7,
+  "group": "iridium_ingot",
+  "ingredient": {
+    "item": "nylle:deepslate_iridium_ore"
+  },
+  "result": "nylle:iridium_ingot"
+}

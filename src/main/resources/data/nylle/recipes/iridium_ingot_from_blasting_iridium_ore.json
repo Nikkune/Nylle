@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.7,
+  "group": "iridium_ingot",
+  "ingredient": {
+    "item": "nylle:iridium_ore"
+  },
+  "result": "nylle:iridium_ingot"
+}

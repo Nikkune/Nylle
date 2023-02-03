@@ -1,0 +1,28 @@
+{
+  "replace": false,
+  "values": [
+    "nylle:deepslate_tin_ore",
+    "nylle:deepslate_lead_ore",
+    "nylle:deepslate_silver_ore",
+    "nylle:deepslate_platinum_ore",
+    "nylle:deepslate_iridium_ore",
+    "nylle:deepslate_osmium_ore",
+    "nylle:deepslate_tungsten_ore",
+
+    "nylle:tin_ore",
+    "nylle:lead_ore",
+    "nylle:silver_ore",
+    "nylle:platinum_ore",
+    "nylle:iridium_ore",
+    "nylle:osmium_ore",
+    "nylle:tungsten_ore",
+
+    "nylle:tin_block",
+    "nylle:lead_block",
+    "nylle:silver_block",
+    "nylle:platinum_block",
+    "nylle:iridium_block",
+    "nylle:osmium_block",
+    "nylle:tungsten_block"
+  ]
+}

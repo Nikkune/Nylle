@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "iridium_ingot",
+  "ingredients": [
+    {
+      "item": "nylle:iridium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "nylle:iridium_ingot"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nylle:osmium_ingot"
+    }
+  },
+  "result": {
+    "item": "nylle:osmium_block"
+  }
+}

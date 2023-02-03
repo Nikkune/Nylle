@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "osmium_ingot",
+  "ingredients": [
+    {
+      "item": "nylle:osmium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "nylle:osmium_ingot"
+  }
+}

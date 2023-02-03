@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 150,
+  "experience": 0.7,
+  "group": "platinum_ingot",
+  "ingredient": {
+    "item": "nylle:deepslate_platinum_ore"
+  },
+  "result": "nylle:platinum_ingot"
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 400,
+  "experience": 0.9,
+  "group": "tungsten_ingot",
+  "ingredient": {
+    "item": "nylle:tungsten_ore"
+  },
+  "result": "nylle:tungsten_ingot"
+}

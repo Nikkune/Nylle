@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "nylle:deepslate_tin_ore",
+    "nylle:deepslate_lead_ore",
+    "nylle:deepslate_silver_ore",
+
+    "nylle:tin_ore",
+    "nylle:lead_ore",
+    "nylle:silver_ore",
+
+    "nylle:tin_block",
+    "nylle:lead_block",
+    "nylle:silver_block"
+  ]
+}

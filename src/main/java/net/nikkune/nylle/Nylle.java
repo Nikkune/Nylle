@@ -39,16 +39,47 @@ public class Nylle {
 
     private void addCreative(CreativeModeTabEvent.BuildContents event) {
         if (event.getTab() == ModCreativeModeTab.NYLLE_TAB) {
-            event.accept(ModBlocks.SILVER_ORE);
-            event.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
-            event.accept(ModBlocks.SILVER_BLOCK);
-            event.accept(ModItems.RAW_SILVER);
-            event.accept(ModItems.SILVER_INGOT);
-            event.accept(ModBlocks.TIN_ORE);
-            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
-            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModItems.WRENCH);
+
             event.accept(ModItems.RAW_TIN);
+            event.accept(ModItems.RAW_LEAD);
+            event.accept(ModItems.RAW_SILVER);
+            event.accept(ModItems.RAW_PLATINUM);
+            event.accept(ModItems.RAW_IRIDIUM);
+            event.accept(ModItems.RAW_OSMIUM);
+            event.accept(ModItems.RAW_TUNGSTEN);
+
             event.accept(ModItems.TIN_INGOT);
+            event.accept(ModItems.LEAD_INGOT);
+            event.accept(ModItems.SILVER_INGOT);
+            event.accept(ModItems.PLATINUM_INGOT);
+            event.accept(ModItems.IRIDIUM_INGOT);
+            event.accept(ModItems.OSMIUM_INGOT);
+            event.accept(ModItems.TUNGSTEN_INGOT);
+
+            event.accept(ModBlocks.TIN_BLOCK);
+            event.accept(ModBlocks.LEAD_BLOCK);
+            event.accept(ModBlocks.SILVER_BLOCK);
+            event.accept(ModBlocks.PLATINUM_BLOCK);
+            event.accept(ModBlocks.IRIDIUM_BLOCK);
+            event.accept(ModBlocks.OSMIUM_BLOCK);
+            event.accept(ModBlocks.TUNGSTEN_BLOCK);
+
+            event.accept(ModBlocks.TIN_ORE);
+            event.accept(ModBlocks.LEAD_ORE);
+            event.accept(ModBlocks.SILVER_ORE);
+            event.accept(ModBlocks.PLATINUM_ORE);
+            event.accept(ModBlocks.IRIDIUM_ORE);
+            event.accept(ModBlocks.OSMIUM_ORE);
+            event.accept(ModBlocks.TUNGSTEN_ORE);
+
+            event.accept(ModBlocks.DEEPSLATE_TIN_ORE);
+            event.accept(ModBlocks.DEEPSLATE_LEAD_ORE);
+            event.accept(ModBlocks.DEEPSLATE_SILVER_ORE);
+            event.accept(ModBlocks.DEEPSLATE_PLATINUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_IRIDIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE);
+            event.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
         }
     }
 

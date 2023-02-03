@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "nylle:deepslate_tungsten_ore",
+
+    "nylle:tungsten_ore",
+
+    "nylle:tungsten_block"
+  ]
+}

@@ -15,6 +15,6 @@ public class ModCreativeModeTab {
 
     @SubscribeEvent
     public static void registerCreativeModeTabs(CreativeModeTabEvent.Register event) {
-        NYLLE_TAB = event.registerCreativeModeTab(new ResourceLocation(Nylle.MOD_ID, "nylle_tab"), builder -> builder.icon(() -> new ItemStack(ModItems.SILVER_INGOT.get())).title(Component.translatable("tabs.nylle_tab")).build());
+        NYLLE_TAB = event.registerCreativeModeTab(new ResourceLocation(Nylle.MOD_ID, "nylle_tab"), builder -> builder.icon(() -> new ItemStack(ModItems.WRENCH.get())).title(Component.translatable("tabs.nylle_tab")).build());
     }
 }
