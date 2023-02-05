@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "nylle:block/tin_smelter_front",
-    "side": "nylle:block/tin_machine_side",
-    "top": "nylle:block/tin_machine_side",
-    "bottom": "nylle:block/tin_machine_side"
+    "front": "nylle:block/smelter/tin_smelter",
+    "side": "nylle:block/machine/tin_machine_side",
+    "top": "nylle:block/machine/tin_machine_top",
+    "bottom": "nylle:block/machine/tin_machine_bottom"
   }
 }

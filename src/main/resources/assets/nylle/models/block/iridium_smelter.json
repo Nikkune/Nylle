@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "nylle:block/iridium_smelter_front",
-    "side": "nylle:block/iridium_machine_side",
-    "top": "nylle:block/iridium_machine_side",
-    "bottom": "nylle:block/iridium_machine_side"
+    "front": "nylle:block/smelter/iridium_smelter",
+    "side": "nylle:block/machine/iridium_machine_side",
+    "top": "nylle:block/machine/iridium_machine_top",
+    "bottom": "nylle:block/machine/iridium_machine_bottom"
   }
 }

@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "nylle:block/platinum_smelter_front",
-    "side": "nylle:block/platinum_machine_side",
-    "top": "nylle:block/platinum_machine_side",
-    "bottom": "nylle:block/platinum_machine_side"
+    "front": "nylle:block/smelter/platinum_smelter",
+    "side": "nylle:block/machine/platinum_machine_side",
+    "top": "nylle:block/machine/platinum_machine_top",
+    "bottom": "nylle:block/machine/platinum_machine_bottom"
   }
 }

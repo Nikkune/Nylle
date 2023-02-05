@@ -5,21 +5,24 @@
       "y": 90
     },
     "facing=east,lit=true": {
-      "model": "nylle:block/osmium_smelter_on"
+      "model": "nylle:block/osmium_smelter_on",
+      "y": 90
     },
     "facing=south,lit=false": {
       "model": "nylle:block/osmium_smelter",
       "y": 180
     },
     "facing=south,lit=true": {
-      "model": "nylle:block/osmium_smelter_on"
+      "model": "nylle:block/osmium_smelter_on",
+      "y": 180
     },
     "facing=west,lit=false": {
       "model": "nylle:block/osmium_smelter",
       "y": 270
     },
     "facing=west,lit=true": {
-      "model": "nylle:block/osmium_smelter_on"
+      "model": "nylle:block/osmium_smelter_on",
+      "y": 270
     },
     "facing=north,lit=false": {
       "model": "nylle:block/osmium_smelter"

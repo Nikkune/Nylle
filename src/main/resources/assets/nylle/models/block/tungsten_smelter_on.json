@@ -1,9 +1,9 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "front": "nylle:block/tungsten_smelter_front_on",
-    "side": "nylle:block/tungsten_machine_side",
-    "top": "nylle:block/tungsten_machine_side",
-    "bottom": "nylle:block/tungsten_machine_side"
+    "front": "nylle:block/smelter/tungsten_smelter_on",
+    "side": "nylle:block/machine/tungsten_machine_side",
+    "top": "nylle:block/machine/tungsten_machine_top",
+    "bottom": "nylle:block/machine/tungsten_machine_bottom"
   }
 }

@@ -14,21 +14,21 @@ import org.jetbrains.annotations.Nullable;
 
 public class SmelterBlock extends Block {
     public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
-    public static final BooleanProperty LIT = BlockStateProperties.LIT;
+    public static final BooleanProperty LIT = BooleanProperty.create("lit");
 
     public SmelterBlock(Properties properties) {
         super(properties);
-        this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(LIT,false));
+        this.registerDefaultState(this.getStateDefinition().any().setValue(FACING, Direction.NORTH).setValue(LIT, false));
     }
 
     @Nullable
     @Override
     public BlockState getStateForPlacement(BlockPlaceContext context) {
-        return this.defaultBlockState().setValue(FACING , context.getHorizontalDirection().getOpposite());
+        return this.defaultBlockState().setValue(FACING, context.getHorizontalDirection().getOpposite()).setValue(LIT, false);
     }
 
     @Override
     protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-        builder.add(FACING,LIT);
+        builder.add(FACING, LIT);
     }
 }
