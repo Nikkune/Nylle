@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "nylle:block/lead_smelter_front",
+    "side": "nylle:block/lead_smelter_side",
+    "top": "nylle:block/lead_smelter_side",
+    "bottom": "nylle:block/lead_smelter_side"
+  }
+}

@@ -12,7 +12,10 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.nikkune.nylle.Nylle;
+import net.nikkune.nylle.api.tiers.BaseTiers;
+import net.nikkune.nylle.block.custom.SmelterBlock;
 import net.nikkune.nylle.item.ModItems;
+import net.nikkune.nylle.item.custom.BlockTieredItem;
 
 import java.util.function.Supplier;
 
@@ -43,10 +46,38 @@ public class ModBlocks {
     public static final RegistryObject<Block> OSMIUM_BLOCK = registerBlock("osmium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f).explosionResistance(7f).requiresCorrectToolForDrops()));
     public static final RegistryObject<Block> TUNGSTEN_BLOCK = registerBlock("tungsten_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(7f).explosionResistance(8f).requiresCorrectToolForDrops()));
 
+    public static final RegistryObject<Block> TIN_SMELTER = registerSmelter(BaseTiers.TIN);
+    public static final RegistryObject<Block> LEAD_SMELTER = registerSmelter(BaseTiers.LEAD);
+    public static final RegistryObject<Block> SILVER_SMELTER = registerSmelter(BaseTiers.SILVER);
+    public static final RegistryObject<Block> PLATINUM_SMELTER = registerSmelter(BaseTiers.PLATINUM);
+    public static final RegistryObject<Block> IRIDIUM_SMELTER = registerSmelter(BaseTiers.IRIDIUM);
+    public static final RegistryObject<Block> OSMIUM_SMELTER = registerSmelter(BaseTiers.OSMIUM);
+    public static final RegistryObject<Block> TUNGSTEN_SMELTER = registerSmelter(BaseTiers.TUNGSTEN);
+
+    @SuppressWarnings("unchecked")
+    private static <T extends Block> RegistryObject<T> registerItemduct(BaseTiers tier) {
+        return (RegistryObject<T>) registerTierBlock(tier, "itemduct", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(3f).explosionResistance(3f).requiresCorrectToolForDrops()));
+    }
+
+    @SuppressWarnings("unchecked")
+    private static <T extends Block> RegistryObject<T> registerSmelter(BaseTiers tier) {
+        return (RegistryObject<T>) registerTierBlock(tier, "smelter", () -> new SmelterBlock(BlockBehaviour.Properties.of(Material.METAL).strength(3f).explosionResistance(3f).requiresCorrectToolForDrops()));
+    }
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);
         return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<T> registerTierBlock(BaseTiers tier, String name, Supplier<T> block) {
+        RegistryObject<T> toReturn = BLOCKS.register(tier.getLower() + "_" + name, block);
+        registerTieredBlockItem(tier, name, toReturn);
+        return toReturn;
+    }
+
+    private static <T extends Block> RegistryObject<Item> registerTieredBlockItem(BaseTiers tier, String name, RegistryObject<T> block) {
+        return ModItems.ITEMS.register(tier.getLower() + "_" + name, () -> new BlockTieredItem(block.get(), new Item.Properties(), tier));
     }
 
     private static <T extends Block> RegistryObject<Item> registerBlockItem(String name, RegistryObject<T> block) {

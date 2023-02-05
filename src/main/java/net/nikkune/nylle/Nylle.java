@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 @Mod(Nylle.MOD_ID)
 public class Nylle {
     public static final String MOD_ID = "nylle";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     public Nylle() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
@@ -57,6 +57,14 @@ public class Nylle {
             event.accept(ModItems.OSMIUM_INGOT);
             event.accept(ModItems.TUNGSTEN_INGOT);
 
+            event.accept(ModItems.TIN_DUST);
+            event.accept(ModItems.LEAD_DUST);
+            event.accept(ModItems.SILVER_DUST);
+            event.accept(ModItems.PLATINUM_DUST);
+            event.accept(ModItems.IRIDIUM_DUST);
+            event.accept(ModItems.OSMIUM_DUST);
+            event.accept(ModItems.TUNGSTEN_DUST);
+
             event.accept(ModBlocks.TIN_BLOCK);
             event.accept(ModBlocks.LEAD_BLOCK);
             event.accept(ModBlocks.SILVER_BLOCK);
@@ -80,6 +88,14 @@ public class Nylle {
             event.accept(ModBlocks.DEEPSLATE_IRIDIUM_ORE);
             event.accept(ModBlocks.DEEPSLATE_OSMIUM_ORE);
             event.accept(ModBlocks.DEEPSLATE_TUNGSTEN_ORE);
+
+            event.accept(ModBlocks.TIN_SMELTER);
+            event.accept(ModBlocks.LEAD_SMELTER);
+            event.accept(ModBlocks.SILVER_SMELTER);
+            event.accept(ModBlocks.PLATINUM_SMELTER);
+            event.accept(ModBlocks.IRIDIUM_SMELTER);
+            event.accept(ModBlocks.OSMIUM_SMELTER);
+            event.accept(ModBlocks.TUNGSTEN_SMELTER);
         }
     }
 

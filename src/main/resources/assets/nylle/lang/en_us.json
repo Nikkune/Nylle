@@ -15,6 +15,14 @@
   "item.nylle.osmium_ingot": "Osmium Ingot",
   "item.nylle.tungsten_ingot": "Tungsten Ingot",
 
+  "item.nylle.tin_dust": "Tin Dust",
+  "item.nylle.lead_dust": "Lead Dust",
+  "item.nylle.silver_dust": "Silver Dust",
+  "item.nylle.platinum_dust": "Platinum Dust",
+  "item.nylle.iridium_dust": "Iridium Dust",
+  "item.nylle.osmium_dust": "Osmium Dust",
+  "item.nylle.tungsten_dust": "Tungsten Dust",
+
   "item.nylle.wrench": "Wrench",
 
   "block.nylle.deepslate_tin_ore": "Deepslate Tin Ore",
@@ -40,6 +48,14 @@
   "block.nylle.iridium_block": "Block of Iridium",
   "block.nylle.osmium_block": "Block of Osmium",
   "block.nylle.tungsten_block": "Block of Tungsten",
+
+  "block.nylle.tin_smelter": "Tin Smelter",
+  "block.nylle.lead_smelter": "Lead Smelter",
+  "block.nylle.silver_smelter": "Silver Smelter",
+  "block.nylle.platinum_smelter": "Platinum Smelter",
+  "block.nylle.iridium_smelter": "Iridium Smelter",
+  "block.nylle.osmium_smelter": "Osmium Smelter",
+  "block.nylle.tungsten_smelter": "Tungsten Smelter",
 
   "tabs.nylle_tab": "Nylle"
 }

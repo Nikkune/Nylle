@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "nylle:block/osmium_smelter_front_on",
+    "side": "nylle:block/osmium_smelter_side",
+    "top": "nylle:block/osmium_smelter_side",
+    "bottom": "nylle:block/osmium_smelter_side"
+  }
+}

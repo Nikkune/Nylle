@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/orientable",
+  "textures": {
+    "front": "nylle:block/platinum_smelter_front",
+    "side": "nylle:block/platinum_smelter_side",
+    "top": "nylle:block/platinum_smelter_side",
+    "bottom": "nylle:block/platinum_smelter_side"
+  }
+}
