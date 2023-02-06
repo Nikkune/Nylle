@@ -26,7 +26,14 @@ public enum EnumColors {
     YELLOW("\u00a7e", APILang.COLOR_YELLOW, "Yellow", "yellow", new int[]{255, 221, 79}, DyeColor.YELLOW),
     WHITE("\u00a7f", APILang.COLOR_WHITE, "White", "white", new int[]{255, 255, 255}, DyeColor.WHITE),
     BROWN("\u00a76", APILang.COLOR_BROWN, "Brown", "brown", new int[]{161, 118, 73}, DyeColor.BROWN),
-    BRIGHT_PINK("\u00a7d", APILang.COLOR_BRIGHT_PINK, "Pink", "pink", new int[]{255, 188, 196}, DyeColor.PINK);
+    BRIGHT_PINK("\u00a7d", APILang.COLOR_BRIGHT_PINK, "Pink", "pink", new int[]{255, 188, 196}, DyeColor.PINK),
+    TIN("\u00a77", APILang.COLOR_TIN, "Tin", "tin", new int[]{69, 86, 92}, DyeColor.LIGHT_BLUE),
+    LEAD("\u00a70", APILang.COLOR_LEAD, "Lead", "lead", new int[]{40, 40, 40}, DyeColor.GRAY),
+    SILVER("\u00a77", APILang.COLOR_SILVER, "Silver", "silver", new int[]{133, 145, 150}, DyeColor.LIGHT_BLUE),
+    PLATINUM("\u00a7c", APILang.COLOR_PLATINUM, "Platinum", "platinum", new int[]{126, 111, 109}, DyeColor.RED),
+    IRIDIUM("\u00a7a", APILang.COLOR_IRIDIUM, "Iridium", "iridium", new int[]{76, 86, 75}, DyeColor.GREEN),
+    OSMIUM("\u00a71", APILang.COLOR_OSMIUM, "Osmium", "osmium", new int[]{67, 74, 94}, DyeColor.BLUE),
+    TUNGSTEN("\u00a7a", APILang.COLOR_TUNGSTEN, "Tungsten", "tungsten", new int[]{116, 126, 109}, DyeColor.LIME),
     ;
 
     public final String minecraftCode;
@@ -39,11 +46,11 @@ public enum EnumColors {
     private final DyeColor dyeColor;
     private final MaterialColor mapColor;
 
-    EnumColors(String minecraftCode, APILang langEntry, String englishName, String registryPrefix, int[] rgbCode, DyeColor dyeColor){
-        this(minecraftCode,langEntry,englishName,registryPrefix,rgbCode,dyeColor.getMaterialColor(),dyeColor);
+    EnumColors(String minecraftCode, APILang langEntry, String englishName, String registryPrefix, int[] rgbCode, DyeColor dyeColor) {
+        this(minecraftCode, langEntry, englishName, registryPrefix, rgbCode, dyeColor.getMaterialColor(), dyeColor);
     }
 
-    EnumColors(String minecraftCode, APILang langEntry, String englishName, String registryPrefix, int[] rgbCode, MaterialColor mapColor, @Nullable DyeColor dyeColor){
+    EnumColors(String minecraftCode, APILang langEntry, String englishName, String registryPrefix, int[] rgbCode, MaterialColor mapColor, @Nullable DyeColor dyeColor) {
         this.minecraftCode = minecraftCode;
         this.langEntry = langEntry;
         this.englishName = englishName;
@@ -95,20 +102,20 @@ public enum EnumColors {
         return minecraftCode;
     }
 
-    public Component getColoredName(){
+    public Component getColoredName() {
         return TextComponentUtils.build(this, getName());
     }
 
-    public MutableComponent getName(){
+    public MutableComponent getName() {
         return langEntry.translate();
     }
 
-    public void setColorFromAtlas(int[] color){
+    public void setColorFromAtlas(int[] color) {
         rgbCode = color;
         this.color = TextColor.fromRgb(rgbCode[0] << 16 | rgbCode[1] << 8 | rgbCode[2]);
     }
 
-    public float[] getRgbCodeFloat(){
+    public float[] getRgbCodeFloat() {
         return new float[]{getColor(0), getColor(1), getColor(2)};
     }
 }

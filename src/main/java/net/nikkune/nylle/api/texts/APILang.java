@@ -41,6 +41,13 @@ public enum APILang implements ILangEntry{
     COLOR_WHITE("color", "white"),
     COLOR_BROWN("color", "brown"),
     COLOR_BRIGHT_PINK("color", "bright_pink"),
+    COLOR_TIN("color", "tin"),
+    COLOR_LEAD("color", "lead"),
+    COLOR_SILVER("color", "silver"),
+    COLOR_PLATINUM("color", "platinum"),
+    COLOR_IRIDIUM("color", "iridium"),
+    COLOR_OSMIUM("color", "osmium"),
+    COLOR_TUNGSTEN("color", "tungsten"),
     //Security
     PUBLIC("security", "public"),
     TRUSTED("security", "trusted"),

@@ -5,13 +5,13 @@ import net.nikkune.nylle.api.texts.EnumColors;
 import java.util.Locale;
 
 public enum BaseTiers {
-    TIN("Tin", EnumColors.AQUA, EnumColors.AQUA),
-    LEAD("Lead", EnumColors.BLACK, EnumColors.DARK_GRAY),
-    SILVER("Silver", EnumColors.GRAY, EnumColors.GRAY),
-    PLATINUM("Platinum", EnumColors.DARK_RED, EnumColors.RED),
-    IRIDIUM("Iridium", EnumColors.DARK_GREEN, EnumColors.DARK_GREEN),
-    OSMIUM("Osmium", EnumColors.INDIGO, EnumColors.INDIGO),
-    TUNGSTEN("Tungsten", EnumColors.BRIGHT_GREEN, EnumColors.BRIGHT_GREEN);
+    TIN("Tin", EnumColors.TIN, EnumColors.TIN),
+    LEAD("Lead", EnumColors.LEAD, EnumColors.LEAD),
+    SILVER("Silver", EnumColors.SILVER, EnumColors.SILVER),
+    PLATINUM("Platinum", EnumColors.PLATINUM, EnumColors.PLATINUM),
+    IRIDIUM("Iridium", EnumColors.IRIDIUM, EnumColors.IRIDIUM),
+    OSMIUM("Osmium", EnumColors.OSMIUM, EnumColors.OSMIUM),
+    TUNGSTEN("Tungsten", EnumColors.TUNGSTEN, EnumColors.TUNGSTEN);
 
     private final String name;
     private final EnumColors color;
